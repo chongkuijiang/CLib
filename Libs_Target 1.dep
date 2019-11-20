@@ -1,0 +1,63 @@
+Dependencies for Project 'Libs', Target 'Target 1': (DO NOT MODIFY !)
+F (.\STM32F10x.s)(0x532BF31A)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x--list .\obj\stm32f10x.lst --xref -o .\obj\stm32f10x.o --depend .\obj\stm32f10x.d)
+F (.\my.c)(0x5DCE5C6A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\src-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\my.o --omf_browse .\obj\my.crf --depend .\obj\my.d)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\src\lookup_c.h)(0x5DCE58C1)
+I (.\src\tabtype.h)(0x5DD48871)
+I (.\src\mid_lookup_c.h)(0x5DCE56F1)
+I (.\src\pid.h)(0x5DCDF716)
+I (.\src\avgfilter_c.h)(0x5DD489C0)
+F (.\src\PID_v1.cpp)(0x5DCDF6F1)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\src-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\pid_v1.o --omf_browse .\obj\pid_v1.crf --depend .\obj\pid_v1.d)
+I (src\PID_v1.h)(0x5DCDF703)
+I (src\pid.h)(0x5DCDF716)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+F (.\src\lookup_v1.cpp)(0x5DD48881)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\src-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\lookup_v1.o --omf_browse .\obj\lookup_v1.crf --depend .\obj\lookup_v1.d)
+I (src\lookup.h)(0x5DD48871)
+I (src\tabtype.h)(0x5DD48871)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (src\lookup_c.h)(0x5DCE58C1)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+F (.\src\mid_lookup_v1.cpp)(0x5DCE577C)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\src-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\mid_lookup_v1.o --omf_browse .\obj\mid_lookup_v1.crf --depend .\obj\mid_lookup_v1.d)
+I (src\mid_lookup.h)(0x5DCE5787)
+I (src\tabtype.h)(0x5DD48871)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (src\mid_lookup_c.h)(0x5DCE56F1)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+F (.\src\avgfilter.cpp)(0x5DD489F0)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\src-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\avgfilter.o --omf_browse .\obj\avgfilter.crf --depend .\obj\avgfilter.d)
+I (src\avgfilter.h)(0x5DD48B95)
+I (src\tabtype.h)(0x5DD48871)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (src\avgfilter_c.h)(0x5DD489C0)
+F (.\src\mid_avgfilter.cpp)(0x5DD48A48)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\src-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\mid_avgfilter.o --omf_browse .\obj\mid_avgfilter.crf --depend .\obj\mid_avgfilter.d)
+I (src\mid_avgfilter.h)(0x5DD48B17)
+I (src\tabtype.h)(0x5DD48871)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (src\mid_avgfilter_c.h)(0x5DD48A7A)
+F (.\src\limiterfilter.cpp)(0x5DD492C9)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\src-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\limiterfilter.o --omf_browse .\obj\limiterfilter.crf --depend .\obj\limiterfilter.d)
+I (src\limiterfilter.h)(0x5DD491D8)
+I (src\tabtype.h)(0x5DD48871)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (src\limiterfilter_c.h)(0x5DD49202)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+F (.\src\SpeedLimiter.cpp)(0x5DD4ACAE)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\src-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\speedlimiter.o --omf_browse .\obj\speedlimiter.crf --depend .\obj\speedlimiter.d)
+I (src\SpeedLimiter.h)(0x5DD494FE)
+I (src\tabtype.h)(0x5DD48871)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (src\SpeedLimiter_c.h)(0x5DD4ACAE)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+F (.\src\inertiaFilter.cpp)(0x5DD4B0BC)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\src-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\inertiafilter.o --omf_browse .\obj\inertiafilter.crf --depend .\obj\inertiafilter.d)
+I (src\inertiaFilter.h)(0x5DD4B0F6)
+I (src\tabtype.h)(0x5DD48871)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (src\inertiafilter_c.h)(0x5DD4B105)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)

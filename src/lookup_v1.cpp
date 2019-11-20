@@ -2,7 +2,7 @@
 #include "lookup.h"
 #include "lookup_c.h"
 
-LOOKUP::LOOKUP(tablt_t *Tab,bool isUp,uint16_t step,int16_t min,uint16_t maxIndex)
+LOOKUP::LOOKUP(const tablt_t *Tab,bool isUp,uint16_t step,int16_t min,uint16_t maxIndex)
 {
     LOOKUP::Tab = Tab;
     LOOKUP::index = 0;

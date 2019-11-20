@@ -141,7 +141,7 @@
             <RestoreToolbox>1</RestoreToolbox>
             <RestoreTracepoints>1</RestoreTracepoints>
             <RestoreSysVw>1</RestoreSysVw>
-            <UsePdscDebugDescription>0</UsePdscDebugDescription>
+            <UsePdscDebugDescription>1</UsePdscDebugDescription>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
           <TargetSelection>0</TargetSelection>
@@ -439,6 +439,21 @@
               <FileName>mid_avgfilter.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>.\src\mid_avgfilter.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>limiterfilter.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\src\limiterfilter.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>SpeedLimiter.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\src\SpeedLimiter.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>inertiaFilter.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\src\inertiaFilter.cpp</FilePath>
             </File>
           </Files>
         </Group>

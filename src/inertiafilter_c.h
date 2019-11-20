@@ -1,6 +1,6 @@
 
-#ifndef _V1_AVD_FILTER_C_H_
-#define _V1_AVD_FILTER_C_H_
+#ifndef _V1_INERTIA_FILTER_C_H_
+#define _V1_INERTIA_FILTER_C_H_
 
 #include "tabtype.h" 
 
@@ -14,13 +14,12 @@ extern "C" {
 
 
 //----------------------------------------------------------------------------------------------  
-void* AVGfilterCreate(uint16_t num);    
-tablt_t AVGfilter(void* obj,tablt_t val);  //滑动平均值
-
-
+void* inertiaFilterCreate();
+tablt_t inertiaFilter(void* obj,tablt_t input);
     
 #ifdef __cplusplus
 }
 #endif
 
 #endif 
+

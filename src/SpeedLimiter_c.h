@@ -1,6 +1,6 @@
 
-#ifndef _V1_AVD_FILTER_C_H_
-#define _V1_AVD_FILTER_C_H_
+#ifndef _V1_SPEEDLIMITER_FILTER_C_H_
+#define _V1_SPEEDLIMITER_FILTER_C_H_
 
 #include "tabtype.h" 
 
@@ -14,13 +14,12 @@ extern "C" {
 
 
 //----------------------------------------------------------------------------------------------  
-void* AVGfilterCreate(uint16_t num);    
-tablt_t AVGfilter(void* obj,tablt_t val);  //滑动平均值
-
-
+void* SpeedFilterCreate(tablt_t amplitude);
+tablt_t speedLimiter(void* obj,tablt_t input);
     
 #ifdef __cplusplus
 }
 #endif
 
 #endif 
+

@@ -7,13 +7,13 @@
 AVG_FILTER::AVG_FILTER(uint16_t num)
 {
     bufMax = num;
-    buf = (uint16_t*)calloc(bufMax, sizeof(uint16_t));
+    buf = (tablt_t*)calloc(bufMax, sizeof(tablt_t));
     ptr = 0;
     bufNum = 0;
     
 }
 
-uint16_t AVG_FILTER::AVGfilter(uint16_t val)  //滑动平均值
+tablt_t AVG_FILTER::AVGfilter(tablt_t val)  //滑动平均值
 {
     int32_t sum = 0;
     buf[ptr] = val;
@@ -38,7 +38,7 @@ void* AVGfilterCreate(uint16_t num)
     return p;
 }
 
-uint16_t AVGfilter(void* obj,uint16_t val)
+tablt_t AVGfilter(void* obj,tablt_t val)
 {
     AVG_FILTER* avg = (AVG_FILTER*)obj;
     return avg->AVGfilter(val);
