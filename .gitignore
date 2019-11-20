@@ -1,4 +1,4 @@
 obj/
-.uvopt
-.dep
-.bak
+*.uvopt
+*.dep
+*.bak
